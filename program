@@ -1,0 +1,11 @@
+list1 = [1,2,3,4,5]
+even = [0,0,0,0,0]
+odd = [0,0,0,0,0]
+for i in range(len(list1)):
+    if list1[i]%2==0:
+        even[i] = list1[i]
+    else:
+        odd[i] = list1[i]
+print("Elements of List: ",list1)
+print("Even Elements: ",even)
+print("Odd Elements: ",odd)
